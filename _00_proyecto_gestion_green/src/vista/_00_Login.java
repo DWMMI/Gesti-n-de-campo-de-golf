@@ -3,7 +3,7 @@ package vista;
 import controlador.Controlador;
 import modelo.Modelo;
 
-public class _00_Login {
+public class _00_Login implements Vistas {
 	// MVC
 	private Controlador miControlador;
 	private Modelo miModelo;
@@ -15,4 +15,14 @@ public class _00_Login {
 		this.miModelo = miModelo;
 	}
 	//* MVC
+	@Override
+	public void setModelo(Modelo miModelo) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void setControlador(Controlador miControlador) {
+		// TODO Auto-generated method stub
+		
+	}
 }

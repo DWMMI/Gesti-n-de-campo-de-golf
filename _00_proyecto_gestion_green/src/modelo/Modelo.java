@@ -1,7 +1,11 @@
 package modelo;
 
-import vista.Vista;
+import vista.Vistas;
 
 public class Modelo {
-	private Vista[] misVistas;
+	private Vistas[] misVistas;
+
+	public void setVistas(Vistas[] misVistas) {
+		this.misVistas = misVistas;
+	}
 }

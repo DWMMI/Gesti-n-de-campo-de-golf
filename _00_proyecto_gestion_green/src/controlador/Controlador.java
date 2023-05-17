@@ -3,20 +3,21 @@ package controlador;
 import javax.swing.JFrame;
 
 import modelo.Modelo;
-import vista.Vista;
+import vista.Vistas;
 
 public class Controlador {
 	// MVC
 	private Modelo miModelo;
-	private Vista[] misVistas;
+	private Vistas[] misVistas;
 
-	public void setMiModelo(Modelo miModelo) {
+	public void setModelo(Modelo miModelo) {
 		this.miModelo = miModelo;
 	}
 
-	public void setMisVistas(Vista[] misVistas) {
+	public void setVistas(Vistas[] misVistas) {
 		this.misVistas = misVistas;
 	}
+
 	// * MVC
 
 	// método para cambiar ventanas:
